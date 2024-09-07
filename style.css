@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(https://cdn.pixabay.com/photo/2017/08/10/02/51/stars-2617445_1280.jpg) no-repeat;
+    background-size: cover;
+}
+.container {
+    background: rgb(254, 254, 254, 0.1);
+    width: 500px;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+    border: 3px solid rgb(254, 254, 254, 0.7);
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgb(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+}
+form {
+    position: relative;
+    width: 100%;
+}
+h2 {
+    font-size: 5em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.inputbox {
+    position: relative;
+}
+.inputbox .input,.input {
+    width: 85%;
+    height: 70px;
+    outline: none;
+    font-size: 1.3em;
+    border: 3px solid rgb(254, 254, 254, 0.6);
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin: 10px 0;
+    padding-left: 40px;
+    padding-right: 80px;
+    transition: 0.1s ease-in;
+}
+.inputbox .input:focus {
+    border: 3px solid #fff;
+    background: rgba(0,0,0,0.5);
+}
+.input::placeholder {
+color: #fff;
+}
+.inputbox .uil {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    font-size: 1.8em;
+}
+.forgetpw {
+    display: flex;
+    justify-content: space-around;
+}
+.forgetpw label input {
+    scale: 1.2;
+    accent-color: #2e90c1;
+}
+.pw a {
+    color: #fff;
+    text-decoration: none;
+}
+.pw a:hover {
+    text-decoration: underline;
+}
+.btn {
+    color: #222;
+    background: #fff;
+    font-size: 1.8em;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    padding: 0;
+    transition: 0.2s ease-in-out;
+}
+.btn:hover {
+    color: #fff;
+    background: #7075fa;
+}
+.createnew {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.createnew a {
+    color: #fff;
+    text-decoration: none;
+}
+.createnew a:hover {
+    text-decoration: underline;
+}
